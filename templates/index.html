@@ -56,7 +56,7 @@
                         
 <article id="home" class="panel special" style="display: flex;">
                             
-	<div class="image" style="background-image: url(&quot;{{url_for('static', filename='images/phyupyarko.jpg'&quot;)}}; background-position: center center;">
+	<div class="image" style="background-image: url(&quot;{{url_for('static', filename='phyupyarko.jpg')}}&quot;); background-position: center center;">
     
     <img src="images/phyupyarko.jpg" alt="" data-position="center center" 
                                 
@@ -112,7 +112,7 @@
     
     <article id="work" class="panel secondary inactive" style="display: none;">
            
-        <div class="image" style="background-image: url(&quot;images/cu.jpg&quot;);background-position: center center;">
+	    <div class="image" style="background-image: url(&quot;{{url_for('static, filename='cu.jpg')}}&quot;);background-position: center center;">
         <img src="images/cu.jpg" alt="" data-position="center center" style="display: none;">
         </div> 
         <div class="content">
@@ -155,7 +155,7 @@
                         
         <article id="about" class="panel secondary inactive" style="display: none;">
                             
-        <div class="image" style="background-image: url(&quot;images/cumdy.jpg&quot;); background-position: center center;">
+		<div class="image" style="background-image: url(&quot;{{url_for('static',filename='cumdy.jpg')}}&quot;); background-position: center center;">
         <img src="images/cumdy.jpg" alt="" data-position="center center" style="display: none;">
          </div>
     
@@ -198,7 +198,7 @@
      
       <article id="contact" class="panel secondary inactive" style="display: none;">
                 
-            <div class="image" style="background-image: url(&quot;images/moe.jpg &quot;); background-position: center bottom;">
+	      <div class="image" style="background-image: url(&quot;{{url_for('static',filename='moe.jpg')}} &quot;); background-position: center bottom;">
                 
             <img src="images/moe.jpg" alt="" data-position="bottom center" style="display: none;">
         

@@ -16,17 +16,17 @@
                     </script> 
                 <!-- end of service worker -->
         <!-- start of web manifest -->
-	<link rel="manifest" href="{{url_for('static',filename='manifest.json')}}">
+	<link rel="manifest" href="{{ url_for('static',filename='manifest.json') }}">
          <!-- end of web manifest -->
            <!-- theme-color -->
         <meta name="theme-color" content="#fff" />
         <!-- end-theme-color -->
-	<script src="{{url_for('static',filename='assets/jquery.min.js')}}"></script> 
-	<script src="{{url_for('static',filename='assets/skel.min.js')}}"></script>
-	<script src="{{url_for('static',filename='assets/util.js')}}"></script>
-	<script src="{{url_for('static',filename='assets/respond.min.js')}}"></script>
-	<script src="{{url_for('static',filename='assets/responsive.js')}}"></script>
-	<link rel="stylesheet" href="{{url_for('static',filename='assets/main.css')}}" />
+	<script src="{{ url_for('static',filename='assets/jquery.min.js') }}"></script> 
+	<script src="{{ url_for('static',filename='assets/skel.min.js') }}"></script>
+	<script src="{{ url_for('static',filename='assets/util.js') }}"></script>
+	<script src="{{ url_for('static',filename='assets/respond.min.js') }}"></script>
+	<script src="{{ url_for('static',filename='assets/responsive.js') }}"></script>
+	<link rel="stylesheet" href="{{ url_for('static',filename='assets/main.css') }}" />
         <title>PWA Fire Codelab Demo</title>
         <meta charset="utf-8">
             
@@ -56,7 +56,7 @@
                         
 <article id="home" class="panel special" style="display: flex;">
                             
-	<div class="image" style="background-image: url(&quot;{{url_for('static', filename='phyupyarko.jpg')}}&quot;); background-position: center center;">
+	<div class="image" style="background-image: url(&quot;{{ url_for('static', filename='phyupyarko.jpg') }}&quot;); background-position: center center;">
     
     <img src="phyupyarko.jpg" alt="" data-position="center center" 
                                 
@@ -112,7 +112,7 @@
     
     <article id="work" class="panel secondary inactive" style="display: none;">
            
-	    <div class="image" style="background-image: url(&quot;{{url_for('static', filename='cu.jpg')}}&quot;);background-position: center center;">
+	    <div class="image" style="background-image: url(&quot;{{ url_for('static', filename='cu.jpg') }}&quot;);background-position: center center;">
         <img src="cu.jpg" alt="" data-position="center center" style="display: none;">
         </div> 
         <div class="content">
@@ -155,7 +155,7 @@
                         
         <article id="about" class="panel secondary inactive" style="display: none;">
                             
-		<div class="image" style="background-image: url(&quot;{{url_for('static',filename='cumdy.jpg')}}&quot;); background-position: center center;">
+		<div class="image" style="background-image: url(&quot;{{ url_for('static',filename='cumdy.jpg') }}&quot;); background-position: center center;">
         <img src="cumdy.jpg" alt="" data-position="center center" style="display: none;">
          </div>
     
@@ -198,7 +198,7 @@
      
       <article id="contact" class="panel secondary inactive" style="display: none;">
                 
-	      <div class="image" style="background-image: url(&quot;{{url_for('static',filename='moe.jpg')}} &quot;); background-position: center bottom;">
+	      <div class="image" style="background-image: url(&quot;{{ url_for('static',filename='moe.jpg') }} &quot;); background-position: center bottom;">
                 
             <img src="moe.jpg" alt="" data-position="bottom center" style="display: none;">
         

@@ -113,7 +113,7 @@
     <article id="work" class="panel secondary inactive" style="display: none;">
            
 	    <div class="image" style="background-image: url(&quot;{{ url_for('static', filename='cu.jpg') }}&quot;);background-position: center center;">
-        <img src="cu.jpg" alt="" data-position="center center" style="display: none;">
+		    <img src="{{ url_for('static',filename='cu.jpg') }}" alt="" data-position="center center" style="display: none;">
         </div> 
         <div class="content">
         <ul class="actions spinX"><li>

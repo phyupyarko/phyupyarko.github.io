@@ -16,18 +16,18 @@
                     </script> 
                 <!-- end of service worker -->
         <!-- start of web manifest -->
-	<link rel="manifest" href="{{ url_for('static',filename='manifest.json') }}">
+        <link rel="manifest" href="/manifest.json">
          <!-- end of web manifest -->
            <!-- theme-color -->
         <meta name="theme-color" content="#fff" />
         <!-- end-theme-color -->
-	<script src="{{ url_for('static',filename='jquery.min.js') }}"></script> 
-	<script src="{{ url_for('static',filename='skel.min.js') }}"></script>
-	<script src="{{ url_for('static',filename='util.js') }}"></script>
-	<script src="{{ url_for('static',filename='respond.min.js') }}"></script>
-	<script src="{{ url_for('static',filename='responsive.js') }}"></script>
-	<link rel="stylesheet" href="{{ url_for('static',filename='main.css') }}" />
-        <title>PWA Fire Codelab Demo</title>
+        <script src="assets/jquery.min.js"></script> 
+        <script src="assets/skel.min.js"></script>
+        <script src="assets/util.js"></script>
+        <script src="assets/respond.min.js"></script>
+        <script src="assets/responsive.js"></script>
+        <link rel="stylesheet" href="assets/main.css" />
+        <title>GitHub Page</title>
         <meta charset="utf-8">
             
             
@@ -45,7 +45,7 @@
         
         <![endif]-->
        
-	<link rel="shortcut icon" href="{{ url_for('static',filename='pwafire192white.png') }}">
+        <link rel="shortcut icon" href="icons/pwafire192white.png">
                 
 </head>
 
@@ -56,9 +56,9 @@
                         
 <article id="home" class="panel special" style="display: flex;">
                             
-	<div class="image" style="background-image: url(&quot;{{ url_for('static', filename='phyupyarko.jpg') }}&quot;); background-position: center center;">
+   <div class="image" style="background-image: url(&quot;images/phyupyarko.jpg&quot;); background-position: center center;">
     
-		<img src="{{ url_for('static',filename ='phyupyarko.jpg') }}" alt="" data-position="center center" 
+    <img src="images/phyupyarko.jpg" alt="" data-position="center center" 
                                 
    style="display: none;">
                             
@@ -68,10 +68,10 @@
                                 
         <div class="inner">
                                     
-        <header><h1>Moe Eaindray</h1>
+		<header><h1>Moe Eaindray</h1>
                                         
-         <p>A Student from CU Mdy Learning Cloud Native Development.<br> My Github is at <br><a href="http:/github.com/phyupyarko">GitHub</a></p>
-                                    
+			<p>A student from CU MDY Learning Cloud Native Development<br>My GitHub is at<br><a href="http://github.com/winttheingihlaing">GitHub</a></p>
+                                   
             </header>
                                     
       <nav id="nav">
@@ -112,8 +112,8 @@
     
     <article id="work" class="panel secondary inactive" style="display: none;">
            
-	    <div class="image" style="background-image: url(&quot;{{ url_for('static', filename='cu.jpg') }}&quot;);background-position: center center;">
-		    <img src="{{ url_for('static',filename='cu.jpg') }}" alt="" data-position="center center" style="display: none;">
+        <div class="image" style="background-image: url(&quot;images/cu.jpg&quot;);background-position: center center;">
+        <img src="images/cu.jpg" alt="" data-position="center center" style="display: none;">
         </div> 
         <div class="content">
         <ul class="actions spinX"><li>
@@ -129,7 +129,7 @@
         <header>
                 <p>Currently</p>
         </header>    
-        <p>Intern at computer university &Learn Cloud Native Developer  </p>                  
+        <p>Intern at computer university & Learning Cloud Native Development</p>                  
                                     
          <header>
                                                                    
@@ -139,7 +139,7 @@
 
         <p>
            
-            We learn Computer science at CU Mdy . <ul class="actions spinX"><li>
+            We Learn Computer science at CU Mdy. <ul class="actions spinX"><li>
                             
                     <a href="https://www.linkedin.com/in/mayeedwin/" class="button small forward">Expand</a></li>
                    
@@ -155,8 +155,8 @@
                         
         <article id="about" class="panel secondary inactive" style="display: none;">
                             
-		<div class="image" style="background-image: url(&quot;{{ url_for('static',filename='cumdy.jpg') }}&quot;); background-position: center center;">
-			<img src="{{ url_for('static',filename='cumdy.jpg') }}" alt="" data-position="center center" style="display: none;">
+        <div class="image" style="background-image: url(&quot;images/cumdy.jpg&quot;); background-position: center center;">
+        <img src="images/cumdy.jpg" alt="" data-position="center center" style="display: none;">
          </div>
     
          <div class="content">
@@ -176,17 +176,17 @@
             <header>
 
             <h2>About</h2>
-            <p>Cloud Native Developer and Intern and <br> Developer Community Building.</p>
+            <p>Cloud Native Developer and Intern and<br>Developer Community Building.</p>
 
             </header>
-            <p> 
-             I am a computer student, I love developer communities the most and just got super open-source.
+            <p>
+			I am a computer student, I love developer communities the most and just got super open-source.
+         
             </p>
                 
             <p> 
                 
-                Creator of <a href="https://pwafire.org/developer"> Project PWA Fire</a>. It is an open source and code  bundle that allows you to convert your existing website into a progressive web app or build one.
-                
+                Creator of <a href="https://github.com/phyupyarko">GitHub Page</a>.GitHub Page is a static site hosting service designed to host your personal organization or project pages directly from a GitHub respository. You can create and publish GitHub Pages sites online using the Jekyll theme chooser or if you prefer to work locally you can use GitHub Desktop or the command line.
            </p>
             
             </div>
@@ -198,9 +198,9 @@
      
       <article id="contact" class="panel secondary inactive" style="display: none;">
                 
-	      <div class="image" style="background-image: url(&quot;{{ url_for('static',filename='moe.jpg') }} &quot;); background-position: center bottom;">
+            <div class="image" style="background-image: url(&quot;images/moe.jpg&quot;); background-position: center bottom;">
                 
-		      <img src="{{ url_for('static',filename='moe.jpg') }}" alt="" data-position="bottom center" style="display: none;">
+            <img src="images/moe.jpg" alt="" data-position="bottom center" style="display: none;">
         
             </div><div class="content">
                 
@@ -224,7 +224,7 @@
                 
             </header>
 
-	    <form name="contactform" method="post" action="{{ url_for('static',filename='send-email.php') }}">
+            <form name="contactform" method="post" action="assets/send-email.php">
             
             <div class="field half first">
                                
@@ -261,7 +261,7 @@
        <footer id="footer" class="">
                 
                 
-         <p class="copyright">© Maye Edwin</p>
+         <p class="copyright">© Moe Eaindray </p>
             
             
             </footer>
@@ -271,7 +271,6 @@
         
         <!--[if lte IE 8]>
             
-
             <![endif]-->
         
         
